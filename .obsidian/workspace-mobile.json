@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "5a2eaf6554efdb0d",
+    "id": "2c93c179e14b36f2",
     "type": "split",
     "children": [
       {
-        "id": "7d4d13d6def093b0",
+        "id": "f30a1b94e71a24c4",
         "type": "tabs",
         "children": [
           {
-            "id": "fa75853094448357",
+            "id": "0b44d995af7a96a2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "hot.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "hot"
             }
           }
         ]
@@ -23,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3ab63d53ab2c7051",
+    "id": "455d9eb3fc6011fa",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "d64eff1168865141",
+        "id": "d3f00cc4d8b62aaa",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -40,7 +44,7 @@
         }
       },
       {
-        "id": "c309dbd43b011e31",
+        "id": "abe85923c18e4652",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -57,7 +61,7 @@
         }
       },
       {
-        "id": "6e1b1bd1cb1c8eed",
+        "id": "c667d4956dc43272",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -72,7 +76,7 @@
         }
       },
       {
-        "id": "f6dbb91ac9909621",
+        "id": "8dae1902d93bffb1",
         "type": "leaf",
         "state": {
           "type": "all-properties",
@@ -86,7 +90,7 @@
         }
       },
       {
-        "id": "164f3c30e4042fb4",
+        "id": "5f8d176ea6869cbb",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -99,15 +103,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "78e19624c28f5ba7",
+    "id": "5999c0fb91f9f077",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "3cc34dce61a8a9a4",
+        "id": "b6a6712373fc0698",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
+            "file": "hot.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -121,11 +126,12 @@
         }
       },
       {
-        "id": "6a3e67eeab371b76",
+        "id": "ea1ad655b9ffabe1",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
+            "file": "hot.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -134,11 +140,12 @@
         }
       },
       {
-        "id": "97f64eb63a48befe",
+        "id": "1438de041f75f3ec",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
+            "file": "hot.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -148,7 +155,7 @@
         }
       },
       {
-        "id": "cc2145b625cad84c",
+        "id": "ec1c92d14c19246c",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -172,10 +179,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc2145b625cad84c",
+  "active": "0b44d995af7a96a2",
   "lastOpenFiles": [
-    "Без названия.base",
-    "Добро пожаловать.md",
-    "Без названия.md"
+    "CLAUDE.md",
+    "hot.md",
+    "Добро пожаловать.md"
   ]
 }
