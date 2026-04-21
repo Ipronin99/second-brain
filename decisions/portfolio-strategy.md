@@ -96,11 +96,16 @@
 
 **M2-M3 (нед 5-12):** запуск продукта 2
 - MVP AI-шаблонизатора: 5 типов документов (договор услуг, акт, счёт, договор оферты, ДМС-соглашение)
-- **Архитектура: модульная с самого начала.** Код делим на `core/` (AI,
-  auth, billing, polling) + `domains/samozanyatyy/` (промпты, формы,
-  landing). Cost: +10-20% времени MVP. Benefit: на M18+ при success можно
-  добавить 3-ю вертикаль или объединить с SecAudit без переписывания.
-  Детали — `decisions/multi-vertical-analysis.md`.
+- **Архитектура: модульная с самого начала (вариант Y(3) «holding»).** Код делим на:
+  - `core/` — auth, billing, AI-провайдеры, polling, storage (переиспользуется)
+  - `domains/samozanyatyy/` — промпты, формы, landing, pricing-tiers
+- Auth/biling проектируем с возможностью **мульти-продуктового аккаунта**
+  (один юзер = доступ к SecAudit + Шаблонизатор в будущем). SSO между
+  доменами реализуем позже (M18+).
+- Cost: +10-20% времени MVP. Benefit: на M18+ при success можно
+  объявить зонтичный бренд (как Яндекс.Такси + Яндекс.Еда) без
+  принудительного ре-брендинга SecAudit.
+- Детали вариантов Y(1)/Y(2)/Y(3) — `decisions/multi-vertical-analysis.md` § 4.
 - Переиспользование:
   - `internal/ai/anthropic.go` + `deepseek.go` — 100%
   - `internal/validation/email.go` + `password.go` — 100%
